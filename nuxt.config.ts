@@ -1,6 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  srcDir: './src',
   runtimeConfig: {
     public: {
       helloText: 'Hello',
@@ -26,7 +25,7 @@ export default defineNuxtConfig({
       '@pinia/nuxt',
       {
         autoImports: ['defineStore', 'acceptHMRUpdate', 'useDayjs'],
-        storesDirs: ['./src/stores/**'],
+        storesDirs: ['./stores/**'],
       },
     ],
   ],
