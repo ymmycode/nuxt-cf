@@ -14,7 +14,6 @@ export default defineNuxtConfig({
   },
 
   modules: [
-    '@nuxthub/core',
     '@nuxt/eslint',
     '@nuxtjs/google-fonts',
     'dayjs-nuxt',
